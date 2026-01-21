@@ -11,8 +11,9 @@ A **backend API** for offering bookings to launches in rockets.
 - One customer can book multiple seats on a launch, but cannot exceed the available seats.
 - Customers will be billed upon booking, and payments will be processed through a mock gateway.
 
-> The system is designed for demonstration and training purposes, not for production use. 
-> No security nor db needed at initial stage.
+> The system is designed for demonstration and training purposes 
+> > not for production use. 
+> > no security nor db needed at initial stage.
 
 ---
 
