@@ -14,20 +14,10 @@ A **backend API** for offering bookings to launches in rockets.
 > The system is designed for demonstration and training purposes, not for production use. 
 > No security nor db needed at initial stage.
 
-## Development workflow
-
-```bash
-npm install
-npm run dev       # Dev mode run
-npm test          # Run all tests
-npm run build     # Compile
-npm start         # Run compiled
-```
-
-[Reoository at GitHub](https://github.com/AlbertoBasaloLabs/astro-bookings)
-Default branch: `main`
-
 ---
+
+- [Repository at GitHub](https://github.com/AlbertoBasaloLabs/astro-bookings)
+- Default branch: `main`
 
 - **Author**: [Alberto Basalo](https://albertobasalo.dev)
 - **Ai Code Academy en Español**: [AI code Academy](https://aicode.academy)
