@@ -24,7 +24,8 @@ npm run build     # Compile
 npm start         # Run compiled
 ```
 
-[Reoository at GitHub](https://github.com/AlbertoBasaloLabs/astro-bookings
+[Reoository at GitHub](https://github.com/AlbertoBasaloLabs/astro-bookings)
+Default branch: `main`
 
 ---
 
