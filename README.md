@@ -1,23 +1,22 @@
 # AstroBookings 
 
-A **backend API** for offering bookings for rocket launches.
+A system comprising a **backend API** and a **frontend WebApp** designed for managing space travel bookings.
 
-- Launches are scheduled for specific rockets, with pricing and minimum passenger thresholds.
-
-- Rockets have limited seats; launch requests are validated against rocket capacity.
-
-- Launch status lifecycle: scheduled → confirmed → successful, or cancellation/suspension paths.
-
-- A customer is identified by their email address and has a name and phone number.
-
-- One customer can book multiple seats on a launch but cannot exceed the available seats.
-
-- Customers are billed upon booking, and payments are processed through a mock gateway.
+- Rockets have limited seat capacity and a specific operational range.
+- Launches are scheduled by associating them with a rocket on a future date.
+- Each launch sets a price per seat and a minimum required occupancy threshold.
+- The lifecycle of a launch contemplates the sequential states: `scheduled` → `confirmed` → `successful`.
+- A launch can transition to `suspended` due to low occupancy or `canceled` due to technical causes.
+- Users (identified as operators or passengers) register using their email address and name.
+- Operators manage the registry of rockets and launches, including handling cancellations and suspensions.
+- Passengers can formalize personal bookings for launches with available seats.
+- Payments and refunds (resulting from a suspension or cancellation) are processed through a mock transactional gateway.
 
 > [!WARNING]
 > AstroBookings is a fictional space travel company.
 > The system is designed for demonstration and training purposes. 
-> Not for production use; no security or database is required at the initial stage.
+> Not for production use; 
+> No security or database is required at the initial stage.
 
 ---
 

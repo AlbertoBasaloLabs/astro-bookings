@@ -1,22 +1,22 @@
 # AstroBookings Español
 
-Una **API backend** y una **WebApp frontend** para ofrecer reservas de lanzamientos de cohetes.
-- Los cohetes tienen plazas limitadas y un rango operativo.
-- Los lanzamientos se programan para un cohete en una fecha futura.
-- Cada lanzamiento ofrece asientos con precios y umbrales mínimos de pasajeros para ser rentables.
-- Un lanzamiento pasa por los siguientes estados: `programado` → `confirmado` → `exitoso`.
-- Pero puede ser `suspendido` si no hay pasajeros suficientes o `cancelado` por razones técnicas.
-- Un operador o pasajero se identifica por su dirección de correo electrónico y tiene un nombre.
-- Los operadores de la plataforma pueden administrar cohetes y lanzamientos.
-- Los operadores gestiona cancelaciones y devoluciones a pasajeros.
-- Un pasajero puede reservar una plaza en un lanzamiento, sin superar las plazas disponibles.
-- A los pasajeros se les factura la reserva, y los pagos se procesan a través de una pasarela simulada.
-- A los pasajeros se les devuelve el importe en caso de suspensión o cancelación del lanzamiento.
+Sistema compuesto por una **API backend** y una **WebApp frontend** orientado a la gestión de reservas para viajes espaciales.
+
+- Los cohetes disponen de capacidad de asientos limitada y un rango operativo específico.
+- Los lanzamientos se programan asociándolos a un cohete en una fecha futura.
+- Cada lanzamiento establece un precio por asiento y un umbral mínimo de ocupación requerida.
+- El ciclo de vida de un lanzamiento contempla los estados secuenciales: `programado` → `confirmado` → `exitoso`.
+- Un lanzamiento puede transicionar a `suspendido` por baja ocupación o a `cancelado` por causas técnicas.
+- Los usuarios (identificados como operadores o pasajeros) se registran mediante su correo electrónico y nombre.
+- Los operadores administran el registro de cohetes y lanzamientos, incluyendo la gestión de cancelaciones y suspensiones.
+- Los pasajeros pueden formalizar reservas personales en lanzamientos con plazas disponibles.
+- Los cobros y reembolsos (derivados de una suspensión o cancelación) se procesan a través de una pasarela transaccional simulada.
 
 > [!WARNING]
 > AstroBookings es una empresa ficticia de viajes espaciales.
 > El sistema está diseñado con fines de demostración y formación. 
-> No está pensado para uso en producción; no se requiere seguridad ni base de datos en la fase inicial.
+> No está pensado para uso en producción.
+> No se requiere seguridad ni base de datos en la fase inicial.
 
 ---
 
