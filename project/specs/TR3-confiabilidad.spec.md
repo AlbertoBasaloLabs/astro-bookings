@@ -1,6 +1,8 @@
-# TR3-confiabilidad-en-reservas-y-estados. Confiabilidad en reservas y estados
+# TR3-confiabilidad. 
 
 ## 1. Problema
+
+Confiabilidad
 
 ### Contexto
 

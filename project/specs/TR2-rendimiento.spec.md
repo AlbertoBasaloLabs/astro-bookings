@@ -1,6 +1,8 @@
-# TR2-rendimiento-interactivo-en-entorno-de-taller. Rendimiento interactivo en entorno de taller
+# TR2-rendimiento. 
 
 ## 1. Problema
+
+Rendimiento
 
 ### Contexto
 

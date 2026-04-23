@@ -1,6 +1,8 @@
-# FR2-planificar-lanzamientos-por-fecha-y-cohete. Planificar lanzamientos por fecha y cohete
+# FR2-planificar-lanzamientos-fecha-cohete. 
 
 ## 1. Problema
+
+Planificar lanzamientos por fecha y cohete
 
 ### Contexto
 

@@ -1,6 +1,8 @@
-# FR5-gestionar-cobros-y-devoluciones-reservas. Gestionar cobros y devoluciones de reservas
+# FR5-gestionar-cobros-devoluciones-reservas. 
 
 ## 1. Problema
+
+Gestionar cobros y devoluciones de reservas
 
 ### Contexto
 

@@ -1,6 +1,8 @@
-# {id-slug}. {Nombre de la funcionalidad}
+# {id-slug}
 
 ## 1. Problema
+
+{Nombre de la funcionalidad}
 
 ### Contexto
 

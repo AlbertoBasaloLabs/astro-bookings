@@ -1,6 +1,8 @@
-# {id-slug}. {Feature name}
+# {id-slug}
 
 ## 1. Problem
+
+{Feature name}
 
 ### Context
 

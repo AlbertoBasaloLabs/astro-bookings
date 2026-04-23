@@ -1,6 +1,8 @@
-# FR3-registrar-reservas-con-control-estricto-capacidad. Registrar reservas con control estricto de capacidad
+# FR3-registrar-reservas-control-estricto-capacidad. 
 
 ## 1. Problema
+
+Registrar reservas con control estricto de capacidad
 
 ### Contexto
 

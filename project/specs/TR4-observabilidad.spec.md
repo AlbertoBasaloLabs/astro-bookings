@@ -1,6 +1,8 @@
-# TR4-observabilidad-minima-de-eventos-negocio. Observabilidad mínima de eventos de negocio
+# TR4-observabilidad. 
 
 ## 1. Problema
+
+Observabilidad
 
 ### Contexto
 

@@ -1,6 +1,8 @@
-# FR1-gestion-flota-operativa-cohetes. Gestionar flota operativa de cohetes
+# FR1-gestionar-flota-operativa-cohetes. 
 
 ## 1. Problema
+
+Gestionar flota operativa de cohetes
 
 ### Contexto
 

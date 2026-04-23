@@ -1,6 +1,8 @@
-# FR4-gestionar-ciclo-de-vida-lanzamientos. Gestionar ciclo de vida de lanzamientos
+# FR4-gestionar-ciclo-vida-lanzamientos. 
 
 ## 1. Problema
+
+Gestionar ciclo de vida de lanzamientos
 
 ### Contexto
 
