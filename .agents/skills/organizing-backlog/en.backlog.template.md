@@ -2,8 +2,18 @@
 
 | Specification              | Dependencies | Status       |
 |----------------------------|--------------|--------------|
-| FR1-rocket-management      | -            | Completed    |
-| FR2-launches               | FR1          | In Progress  |
-| TR1-security-mvp           | FR1, FR2     | Blocked      |
+| **Specification**          | -            | Completed    |
+| _Specification_            | FR1          | In Progress  |
+| **_Specification_**        | FR1, FR2     | Blocked      |
 | TR2-observability          | -            | Pending      |
-| TR3-payment-integrations   | -            | Failed       |
+| **~~Specification~~**      | -            | Failed       |
+
+---
+
+> Visual convention :
+
+- `Specification` -> `Pending`
+- `_Specification_` -> `In Progress`
+- `~~Specification~~` -> `Completed`
+- `**_Specification_**` -> `Blocked`
+- `**~~Specification~~**` -> `Failed`

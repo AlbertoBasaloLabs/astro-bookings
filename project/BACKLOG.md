@@ -12,3 +12,13 @@
 | FR5-gestionar-cobros-devoluciones-reservas | [FR3, FR4, TR5] | Pendiente |
 | TR4-observabilidad | [FR2, FR3, FR4, FR5] | Pendiente |
 | TR2-rendimiento | [FR1, FR2, FR3, FR4, FR5] | Pendiente |
+
+---
+
+> Convención visual :
+
+- `Especificación` -> `Pendiente`
+- `_Especificación_` -> `En Curso`
+- `~~Especificación~~` -> `Completada`
+- `**_Especificación_**` -> `Bloqueada`
+- `**~~Especificación~~**` -> `Fallida`
