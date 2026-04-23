@@ -59,7 +59,7 @@ The file name must combine both values: `{id-slug}.spec.md`. Example: `FR1-rocke
 #### 2.2 Content rules
 
 - Problem: describe context, user stories, entities, and business rules.
-- Solution: without deep technical detail, describe what must be done in each physical layer (UI, API, DB).
+- Solution: without deep technical detail, describe what must be done in each physical layer, if applicable (UI, API, DB).
 - Verification: acceptance criteria using EARS (Easy Approach to Requirements Syntax).
 
 ## Verification

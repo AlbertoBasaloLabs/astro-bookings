@@ -59,7 +59,7 @@ El nombre del archivo debe ser una combinación de ambos: `{id-slug}.spec.md`. E
 #### 2.2 Reglas de contenido
 
 - Problema: describe el contexto, historias de usuario, entidades y reglas de negocio.
-- Solución: sin detalles técnicos, describe qué se debe hacer en cada capa física (UI, API, DB)
+- Solución: sin detalles técnicos, describe qué se debe hacer en cada capa física, si aplica (UI, API, DB)
 - Verificación: criterios de aceptación en formato Easy Approach to Requirements Syntax (EARS) 
 
 ## Verificación

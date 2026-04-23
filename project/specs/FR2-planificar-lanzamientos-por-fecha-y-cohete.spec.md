@@ -53,3 +53,4 @@ Vista calendario/lista de lanzamientos con formulario de alta. Mostrar advertenc
 - [ ] CUANDO se intente crear un lanzamiento solapado para el mismo cohete el sistema DEBE rechazar la operación.
 - [ ] SI falta `precio-por-asiento` o `umbral-minimo-ocupacion` ENTONCES el sistema DEBE impedir habilitar reservas para ese lanzamiento.
 - [ ] CUANDO se consulte el calendario el sistema DEBE mostrar fecha, cohete, precio y umbral de cada lanzamiento.
+- [ ] CUANDO planifique un lanzamiento el sistema DEBE verificar que el cohete no haya sido lanzado en los últimos 10 días.
