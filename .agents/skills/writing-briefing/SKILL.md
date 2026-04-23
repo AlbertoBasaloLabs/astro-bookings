@@ -40,6 +40,8 @@ Genera un documento de briefing siguiendo la plantilla basada en el idioma del u
 - [En español (Spanish)](es.briefing.template.md)  
 - [In English (Inglés)](en.briefing.template.md)
 
+Puedes usar cualquiera de las dos plantillas aunque el proyecto mezcle idiomas o necesite una base en otro idioma.
+
 Reglas:
 - Mantén el documento conciso
 - No entres en detalles técnicos

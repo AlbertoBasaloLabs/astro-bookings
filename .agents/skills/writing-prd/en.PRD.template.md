@@ -32,18 +32,16 @@
 
 ---
 
-## 3. Business Rules
+## 3. Problem domain
+
+### 3.1. Entities and ubiquitous language
+
+- {`Entity1`}: {short description}
+- {`Entity2`}: {short description}
+- {`EntityN`}: {short description}
+
+### 3.2. Business Rules
 
 - {Invariant}
-- {Constraint (capacity, pricing, etc.)}
-- {Lifecycle rule}
-
----
-
-## 4. Architectural Drivers
-
-- {Performance critical paths}
-- {Scalability expectations}
-- {Consistency vs availability decisions}
-- {Deployment constraints}
-- {Team / development constraints}
+- {Value constraint}
+- {State management or lifecycle (diagram or table)}

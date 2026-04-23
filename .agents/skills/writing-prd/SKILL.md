@@ -63,6 +63,8 @@ Genera el PRD siguiendo la plantilla basada en el idioma del usuario/briefing:
 - Utiliza la plantilla [en inglés](en.PRD.template.md) 
 - Utiliza la plantilla [en español](es.PRD.template.md)
 
+Puedes usar cualquiera de las plantillas aunque el proyecto mezcle idiomas o requiera una base en otro idioma.
+
 Reglas:
 - Mantén el documento conciso
 - No repitas el briefing (el PRD es una ampliación)

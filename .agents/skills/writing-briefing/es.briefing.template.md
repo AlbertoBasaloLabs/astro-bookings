@@ -13,6 +13,8 @@
 ### 1.3 Público objetivo
 {Lista de grupos o roles que se beneficiarán o estarán involucrados en el proyecto.}
 
+---
+
 ## 2. Alcance
 
 ### 2.1 Qué se incluye

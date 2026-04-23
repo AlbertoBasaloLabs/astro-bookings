@@ -1,4 +1,4 @@
-# F{N}. {Nombre de la funcionalidad}
+# {id-slug}. {Nombre de la funcionalidad}
 
 ## 1. Problema
 

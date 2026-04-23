@@ -28,10 +28,12 @@ Write a one‑page briefing based on the information supplied by the user. The d
 
 Ask follow‑up questions whenever needed to remove ambiguity. Do not produce the final document until you have a solid understanding of each section.
 
-### 3. Produce the output using the template that matches the user’s language:
+### 3. Produce the output using the template that best fits the context:
 
-- [In Spanish](ca://s?q=Briefing_template_Spanish)  
-- [In English](ca://s?q=Briefing_template_English)
+- [In Spanish (Español)](es.briefing.template.md)  
+- [In English](en.briefing.template.md)
+
+You can use either template even when the project mixes languages or needs a base template in another language.
 
 ## Verification criteria
 - [ ] Business‑focused  

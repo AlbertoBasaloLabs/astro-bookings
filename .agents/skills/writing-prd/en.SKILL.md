@@ -56,10 +56,12 @@ If possible, propose an initial draft and ask for validation instead of open que
 
 ### 2. Writing the PRD
 
-Generate PRD following template based on briefing language:
+Generate the PRD with the template that best fits the context:
   
 - Use the [English PRD template](en.PRD.template.md) 
 - Use the [Spanish PRD template](es.PRD.template.md)
+
+You can use either template even when the project mixes languages or needs a base template in another language.
 
 Rules:
 - Keep concise
@@ -67,10 +69,10 @@ Rules:
 - Focus on decisions, not narrative
 - Prefer fewer but stronger requirements
 
-Límites:
+Limits:
 - 3–9 Functional Requirements (if the application is complex, make the requirements less specific, because they will be detailed in future specification documents)
 
-## Verificación 
+## Verification
 
 - [ ] A comprehensive PRD at `{Project_Folder}/PRD.md`.
 - [ ] FRs are business capabilities (not implementation)

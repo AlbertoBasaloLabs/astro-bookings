@@ -42,8 +42,11 @@ No mezcles varios FR/TR en la misma spec salvo que el usuario lo pida explícita
 
 ### 2. Redacción de la especificación
 
-Genera la spec usando la plantilla:
+Genera la spec usando la plantilla más adecuada al contexto:
 - [Plantilla de especificación en español](./es.spec.template.md)
+- [Specification template in English](./en.spec.template.md)
+
+Puedes usar cualquiera de las plantillas aunque el proyecto mezcle idiomas o necesite un template base en otro idioma.
 
 #### 2.1 Identificador y slug
 

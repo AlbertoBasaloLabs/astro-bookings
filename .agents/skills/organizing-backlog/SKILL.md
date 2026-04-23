@@ -29,9 +29,12 @@ Haz preguntas solo si bloquean decisiones del documento:
 
 ### 2. Redacción del backlog
 
-Genera el documento de backlog siguiendo la plantilla basada en el idioma del usuario:
+Genera el documento de backlog siguiendo la plantilla más adecuada al contexto:
 
-- [En español (Spanish)](backlog.template.md)  
+- [En español (Spanish)](es.backlog.template.md)  
+- [In English (Inglés)](en.backlog.template.md)
+
+Puedes usar cualquiera de las plantillas aunque el proyecto mezcle idiomas o requiera un template base en otro idioma.
 
 
 Reglas:
