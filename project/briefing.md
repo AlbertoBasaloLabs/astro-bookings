@@ -8,7 +8,7 @@ Plataforma de gestión interna para una empresa ficticia de turismo espacial que
 AstroBookings necesita coordinar su operación diaria sin errores de capacidad ni conflictos de calendario entre cohetes y lanzamientos. Además, debe decidir la viabilidad económica de cada salida según ocupación mínima esperada y gestionar cobros/devoluciones de reservas. Sin una herramienta unificada, aumentan la sobreventa, decisiones lentas ante incidencias y pérdidas por lanzamientos no rentables.
 
 ### 1.2 Misión u objetivo
-Diseñar y validar, en un contexto formativo, un sistema de referencia MVP que permita gestionar flota, lanzamientos, reservas y cobros con reglas claras de negocio, reduciendo a cero las sobre-reservas y permitiendo suspender o cancelar lanzamientos con trazabilidad económica y técnica.
+Diseñar y validar, en un contexto formativo, un sistema de referencia MVP que permita gestionar flota, lanzamientos, reservas y cobros con reglas claras de negocio, reduciendo a cero las sobre-reservas y permitiendo suspender lanzamientos con trazabilidad de causa económica, técnica o climática.
 
 ### 1.3 Público objetivo
 - Personal de operaciones que planifica lanzamientos.
@@ -22,9 +22,9 @@ Diseñar y validar, en un contexto formativo, un sistema de referencia MVP que p
 
 ### 2.1 Qué se incluye
 - Gestión de flota de cohetes (alta, consulta, capacidad operativa y rango de acción: Tierra, Luna o Marte).
-- Planificación de lanzamientos con estados operativos, precio por asiento y umbral mínimo de ocupación.
+- Planificación de lanzamientos con estados operativos simples (`planificado`, `suspendido`, `completado`), precio por asiento y umbral mínimo de ocupación.
 - Registro y control de reservas sin superar la capacidad del cohete asignado.
-- Gestión de suspensión y cancelación de lanzamientos por causas técnicas o económicas.
+- Gestión de suspensión de lanzamientos con causa específica (`económica`, `técnica` o `climática`).
 - Cobro y devolución de reservas mediante pasarela de pago ficticia.
 - API REST y aplicación web interna para empleados.
 

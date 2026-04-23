@@ -12,10 +12,10 @@ El sistema debe permitir crear y consultar lanzamientos programados, asignando u
 El sistema debe permitir registrar reservas para un lanzamiento únicamente mientras existan plazas disponibles. Nunca debe aceptar reservas que superen la capacidad del cohete asignado al lanzamiento, incluyendo operaciones concurrentes.
 
 ### FR4 — Gestionar ciclo de vida de lanzamientos
-El sistema debe soportar la evolución de estado de cada lanzamiento (planificado, suspendido, cancelado, completado) con reglas de transición explícitas. Cualquier cambio de estado debe quedar trazado para auditoría funcional y seguimiento operativo.
+El sistema debe soportar la evolución de estado de cada lanzamiento usando un flujo simple para MVP (`planificado`, `suspendido`, `completado`). Cuando un lanzamiento se suspenda, se debe registrar la causa (`económica`, `técnica` o `climática`) de forma explícita.
 
 ### FR5 — Gestionar cobros y devoluciones de reservas
-El sistema debe permitir registrar el cobro de una reserva y procesar su devolución total cuando aplique (por cancelación del lanzamiento u otros motivos operativos), utilizando una pasarela de pago ficticia orientada a formación.
+El sistema debe permitir registrar el cobro de una reserva y procesar su devolución cuando aplique por suspensión del lanzamiento u otros motivos operativos, utilizando una pasarela de pago ficticia orientada a formación.
 
 ---
 
@@ -50,7 +50,7 @@ No se contemplan integraciones reales con pagos, ERP ni proveedores externos. Pa
 - `reserva`: asignación de una o más plazas a un lanzamiento concreto.
 - `capacidad-disponible`: plazas restantes en un lanzamiento en un momento dado.
 - `estado-de-lanzamiento`: fase del ciclo de vida operativo de un lanzamiento.
-- `motivo-de-incidencia`: causa registrada para suspensión o cancelación.
+- `causa-de-suspension`: causa registrada cuando un lanzamiento pasa a `suspendido` (`económica`, `técnica`, `climática`).
 - `cobro`: operación económica de confirmación de pago de una reserva.
 - `devolución`: operación económica de reembolso asociada a una reserva cobrada.
 
@@ -60,15 +60,15 @@ No se contemplan integraciones reales con pagos, ERP ni proveedores externos. Pa
 - El `rango-de-acción` de un `cohete` solo puede ser `tierra`, `luna` o `marte`.
 - La suma de plazas reservadas en un `lanzamiento` nunca puede exceder la capacidad del `cohete` asignado.
 - Cada `lanzamiento` debe definir `precio-por-asiento` y `umbral-mínimo-ocupación` antes de aceptar reservas.
-- Si al cierre comercial la ocupación real es inferior al `umbral-mínimo-ocupación`, el lanzamiento puede pasar a `suspendido` por causa económica.
-- No se permiten nuevas `reservas` cuando el `estado-de-lanzamiento` sea `suspendido`, `cancelado` o `completado`.
+- Si un mes antes del lanzamiento la ocupación es inferior al `umbral-mínimo-ocupación`, pasará a `suspendido` por causa económica.
+- Motivos climáticos o técnicos también pueden causar la suspensión de un lanzamiento.
+- No se permiten nuevas `reservas` cuando el `estado-de-lanzamiento` sea `suspendido` o `completado`.
 - Una `devolución` solo puede ejecutarse sobre una `reserva` previamente `cobrada`.
-- Cada cambio de `estado-de-lanzamiento` debe registrar fecha, actor y `motivo-de-incidencia` cuando aplique.
+- Cada cambio de `estado-de-lanzamiento` debe registrar fecha y actor; en `suspendido` debe registrar también `causa-de-suspension`.
 - El ciclo de vida permitido para `estado-de-lanzamiento` es:
 
 | Estado actual | Puede pasar a |
 | --- | --- |
-| planificado | suspendido, cancelado, completado |
-| suspendido | planificado, cancelado |
-| cancelado | (sin transición) |
+| planificado | suspendido, completado |
+| suspendido | (sin transición) |
 | completado | (sin transición) |
