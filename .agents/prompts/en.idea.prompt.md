@@ -1,5 +1,10 @@
-Create a project briefing for the development of the AstroBookings application.
-This is a training project for programming courses and workshops, and it is not intended for production use.
-The project addresses the needs of AstroBookings, a fictional company in the space tourism industry.
-The solution must support rocket fleet management, launch scheduling, booking registration without exceeding rocket capacity, and launch suspension or cancellation for economic or technical reasons.
-The proposed product includes a REST API and a web application that employees use to manage bookings and launches.
+Need a briefing to start AstroBookings.
+It is a training project for courses and workshops, thought as MVP (no production and no authentication in this phase).
+
+The idea is to help a fictional space tourism company to organize its daily operation.
+It has to allow managing rockets (with action range: Earth, Moon or Mars), planning launches, registering bookings without exceeding the rocket capacity, and suspending/canceling launches for technical or economic reasons.
+In each launch, the price per seat and a minimum occupancy threshold are defined to decide if it is maintained or suspended.
+
+It also has to consider payments and refunds of bookings with a fictitious payment gateway.
+
+A REST API and an internal web application are proposed to allow the team to manage bookings and launches.
